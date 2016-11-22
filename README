@@ -1,1 +1,8 @@
-serie of code to perform a regional flow frequency analysis from Water Survey of Canada flow data base using MatLab. 
+regional_flowfreq is a small library of matlab codes to perform a regional flow frequency analysis using a log-PearsonIII model. The codes are made to work with times series data (*.ts3) released by the Water Survey of Canada.
+
+Real-time hydrometric data can be viewed at https://wateroffice.ec.gc.ca/
+The HYDAT data base can be download at https://www.ec.gc.ca/rhc-wsc/default.asp?lang=En&n=9018B5EC-1
+
+The analysis will be run by the script doFrequencyAnalysis.m.
+Absolute input and output path need to be entered in the doFrequencyAnalysis.m script. 
+
