@@ -5,7 +5,7 @@ pathInput = 'enter full input path';
 pathOutput = 'enter full output path';
 
 %% Importing data from specified path input
-[table] = impHYDATV2(pathInput);
+[table] = impHYDATV3(pathInput);
 
 %% Perform a frequency analysis on each gaging station located in the input path
 [dat] = mainFrequencyAnalysis(table);
